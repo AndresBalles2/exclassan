@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+  transition: all;
+  transition-duration: 0.5s;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {background-color: #2b1055;}
+
+
+
+  .navbar{
+    display: flex;
+    background-color: #2b1055;
+    position: absolute;
+    top:0;
+    width: 100%;
+    font-size: 20px;
+}
+
+.nav-right{
+    text-align: right;
+    float:right;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.section-1{
+    padding:40px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/099/704/non_2x/mountain-beautiful-landscape-background-design-illustration-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:600px;
+    background-size: 100% 100%;
+    font-family: 'Georgia', serif;
+    z-index: 1000;
+}
+
+.section-1-text{
+    display: block;
+    border: black;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    right: -350px;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
+}
+.section-1 p{
+    font-size: 20px;
+    color: white;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+.gallery div{
+    display: inline !important;
+}
+
+div.gallery a:hover {
+    border: 1px solid white;
+}
+
+div.gallery image-holder desc {
+    text-align: center;
+}
+
+img{
+    height: 300px;
+    width:250px;
+}
+
+.btn
+{
+    display: inline-block;
+    border-radius: 40px;
+    color:white;
+    background-color: #2b1055;
+    font-size:1.5em;
+    z-index: 9;
+    text-decoration: none;
+    width:fit-content;
+    height:fit-content;
+    padding:8px 30px;
+    transform: translateY(100px);
+    transition-duration: 0.3s;
+}
+
+.btn:hover{
+    background: #fff;
+    color: #2b1055;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding-left: 15px;
+  }
+
+  li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color:white;
+  }
+
+  li ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li a:hover {
+    background: #fff;
+    color: #2b1055;
+    border-radius: 2em;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+
+  .section-3{
+      padding:35px;
+  }
+
+  
+  .view-card {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    display: inline;
+
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+    align-items: center;
+  }
+
+
+  .section-4{
+    padding:35px;
+  }
+  
+  .brand{
+      width: 20%;
+      display: inline;
+  }
+
+  .brand img{
+      height: 175px;
+  }
+
+.section-5
+{
+    display: grid; 
+    background-color: #2b1055;
+    position: relative;
+    padding: 100px;
+}
+div h2{
+  color: white;
+}
+div p{
+  color: white;
+}
+div .column label{
+  color: white;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 2em;
+  }
+  
+  input[type=submit] {
+    background-color: #2b1055;
+    color: white;
+    padding: 12px 20px;
+    border: all;
+    border-color: white;
+    cursor: pointer;
+    border-radius: 2em;
+  }
+  
+  input[type=submit]:hover {
+    background: #fff;
+    color: #2b1055;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

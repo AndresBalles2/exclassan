@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+body {margin:0; background-color: #2b1055;}
+
+.navbar{
+  display: flex;
+  position: absolute;
+  top:0;
+  width: 100%;
+  font-size: 20px;
+  background-color: #2b1055;
+}
+
+.nav-right{
+  text-align: right;
+  float:right;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-right li {
+    display: inline;
+    float: left;
+    padding-left: 15px;
+  }
+
+  .nav-right li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color:white;
+  }
+
+  .nav-right  li ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .nav-right li a:hover {
+    background: #fff;
+    color: #2b1055;
+    border-radius: 2em;
+  }
+
+  .nav-right .active {
+    background-color: #04AA6D;
+  }
+
+
+/* body section  */
+
+.section-body{
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.section-body h4{
+    font-size: large;
+    color: white;
+    font-family: 'Times', serif;
+}
+
+.vertical-nav
+{
+    padding-top: 10px;
+}
+
+
+.section-body ul {
+    list-style-type: none;
+    width: 18%;
+    background-color: #2b1055;
+    border-radius: 2em;
+    position: fixed;
+    height: auto;
+    overflow: auto;
+  }
+  
+  .section-body  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Times', serif;
+  }
+  
+  .section-body li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .section-body li a:hover:not(.active) {
+    background: #fff;
+    color: #2b1055;
+    border-radius: 2em;
+  }
+
+/* 
+  section-2 */
+
+  .image-holder{
+    
+    transition-duration:200ms;
+    transition-timing-function: ease-out;
+    border-radius: 2em;
+  }
+  
+  .image-holder:hover {
+    background: #fff;
+    color: #2b1055;
+    border-radius: 2em;
+    transform: scale(1.05,1.05);
+  }
+  
+.gallery{
+    
+    display: flex;
+    flex-direction: row; 
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+div.desc {
+    text-align: center;
+    width: 100%;
+ }
+
+ .desc i{
+    float: left !important;
+    padding-left: 10px;
+ }
+
+ .desc button{
+    float:right !important;
+    margin-right: 10px;
+    margin-bottom: 5px;
+ }
+
+.gallery img{
+    height: 250px;
+    width:200px;
+}
+div .Adventure h2{
+  color: white;
+}
+
+.btn
+{
+    display: block;
+    border-radius: 5px;
+    color:white;
+    background-color: #2b1055;
+    font-size:20px;
+    text-decoration: none;
+    width:fit-content;
+    height:fit-content;
+    padding:5px;
+}
+
+.btn:hover{
+    background: #fff;
+    color: #2b1055;
+    border-radius: 2em;
+}

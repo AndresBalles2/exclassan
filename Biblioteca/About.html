@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Información</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #2b1055;
+}
+
+.navbar{
+  display: flex;
+  position: absolute;
+  top:0;
+  width: 100%;
+  font-size: 20px;
+  background-color: #2b1055;
+}
+
+.nav-right{
+  text-align: right;
+  float:right;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-right li {
+    display: inline;
+    float: left;
+    padding-left: 15px;
+  }
+
+  .nav-right li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color:white;
+  }
+
+  .nav-right  li ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .nav-right li a:hover {
+    background: #fff;
+    color: #2b1055;
+    border-radius: 2em;
+  }
+
+  .nav-right .active {
+    background-color: #04AA6D;
+  }
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  width: 300px;
+  height: 500px;
+  border-color: white;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+}
+.row{
+  background: #fff;
+  height: 600px;
+}
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 2em;
+  color: white;
+  background-color: #2b1055;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+    background: #fff;
+    color: #2b1055;
+    border-radius: 2em;
+}
+img{
+    height: 100px;
+    width:100px;
+}
+div .card:hover {
+    background: #2b1055;
+    color: #fff;
+    border-radius: 2em;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-right">
+            <li><a href="../EindexF.html">Inicio</a></li>
+        </div>
+    </nav>
+
+<div class="about-section">
+  <h1>Sobre la Página </h1>
+  <p>Para organizar la página me ayude en algunos ejemplos de otras, claro esta que añadí mis detalles, no todo es igual a las demás, me gustó mucho agregar colores,textos, contenedores, el formulario con el JS me gustó mucho hacerlo, validar inputs y demás, también me gustó el hecho de crear "headers" y darles "hover" con distintos colores para hacer lo visual más bonito de ver, aprendí sobre mover imágenes tomandolas como png, dandole valores y situandolas a partir del lado donde vayan (No sé si me hice entender, pero fue genial), también que siempre que iba a continuar con la página duraba horas sentado, no la hacia tanto como obligación, sino que lo ví como un "Hobbie", en realidad fue muy didactico y me gustó mucho crearla.</p>
+  <p>Para cualquier inquietud dejarla en la caja de comentarios de la biblioteca. 
+      <br><br>¡Gracias por echarle el vistazo a la página!
+  </p>
+</div>
+
+<h2 style="text-align:center">Secciones</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="HTML.png" alt="HTML" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>HTML</h2>
+        <p class="title">Estructurar & Desplegar</p>
+        <p>Basandome en lo visto de las clases más algunas guias buscadas pude crear un HTML bastante completo en cada sección de mi página web, creando headers, "nav's", divs, formularios, contenedores y demás.</p>
+        <p>amballesterosr@ufpso.edu.co</p>
+        <p><a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser"><button class="button">Contact</button></p></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <center><img src="CSS.png" alt="CSS" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>CCS</h2>
+        <p class="title">Ordenar & Presentar</p>
+        <p>El CSS fue muy variado, creando hover a lugares especificos, dar ciertos movimientos de acercamiento como en las imágenes de galería, o darle movimiento a algunas estructuras del inicio, dandole tipos de fuentes a las palabras, la principal y más usada como "Font Family", aplicando en las etiquetas o clases para llamar los valores de forma correcta.</p>
+        <p>amballesterosr@ufpso.edu.co</p>
+        <p><a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser"><button class="button">Contact</button></p></a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+        <center><img src="JS.png" alt="JS" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>JS</h2>
+        <p class="title">Interactuar</p>
+        <p>En este aspecto el JS fue un poco difícil, tuve que investigar acerca de mover imágenes tomadas con formato PNG, dandole valores y así logrando un funcionamiento de estas, también interactuar con los formularios, validar inputs, contraseñas y demás.</p>
+        <p>amballesterosr@ufpso.edu.co</p>
+        <p><a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser"><button class="button">Contact</button></p></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
